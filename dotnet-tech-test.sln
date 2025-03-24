@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-tech-test", "dotnet-tech-test\dotnet-tech-test.csproj", "{A2B46F24-F418-4AAD-AB3C-B5336FFA3B9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-tech-test.Tests", "dotnet-tech-test.Tests\dotnet-tech-test.Tests.csproj", "{C812805C-ABBA-4FF2-909E-D7CCA09AF78A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B46F24-F418-4AAD-AB3C-B5336FFA3B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B46F24-F418-4AAD-AB3C-B5336FFA3B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B46F24-F418-4AAD-AB3C-B5336FFA3B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B46F24-F418-4AAD-AB3C-B5336FFA3B9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C812805C-ABBA-4FF2-909E-D7CCA09AF78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C812805C-ABBA-4FF2-909E-D7CCA09AF78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C812805C-ABBA-4FF2-909E-D7CCA09AF78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C812805C-ABBA-4FF2-909E-D7CCA09AF78A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
