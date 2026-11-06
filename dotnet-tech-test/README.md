@@ -46,7 +46,7 @@ The API consists of two operations:
    ```bash
    dotnet run
    
-2. Open your browser and navigate to https://localhost:5001/swagger/index.html to access the Swagger UI.
+2. Open your browser and navigate to http://localhost:5081/swagger/index.html to access the Swagger UI.
 
 ### Running the tests
    ```bash

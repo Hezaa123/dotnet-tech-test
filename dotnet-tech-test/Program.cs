@@ -5,15 +5,16 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddMvc();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(options =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet-tech-test", Version = "v1" });
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "dotnet-tech-test", Version = "v1" });
 });
 builder.Services.AddHttpClient();
 builder.Services.AddScoped<IAlbumService, AlbumService>();
