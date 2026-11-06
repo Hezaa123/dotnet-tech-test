@@ -1,0 +1,25 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore debug/release outputs
+*.pdb
+*.exe
+*.dll
+*.log
+*.cache
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
